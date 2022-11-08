@@ -30,7 +30,7 @@ def test_daily_mean_integers():
     npt.assert_array_equal(daily_mean(test_input), test_result)
 
 def test_daily_stddev():
-    from inflammation.models import daily_mean
+    from inflammation.models import daily_stddev
 
     test_input = np.array([[1, 2],
                            [1, 2]
