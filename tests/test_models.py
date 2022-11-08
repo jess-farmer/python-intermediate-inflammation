@@ -33,8 +33,8 @@ def test_daily_stddev():
     from inflammation.models import daily_stddev
 
     test_input = np.array([[1, 2],
-                           [1, 2]
+                           [1, 2],
                            [1, 2]])
-    test_result = np.array([3, 4]
+    test_result = np.array([0, 0])
 
     npt.assert_array_equal(daily_stddev(test_input), test_result)
