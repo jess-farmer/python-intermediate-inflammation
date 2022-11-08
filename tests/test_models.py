@@ -37,4 +37,4 @@ def test_daily_stddev():
                            [1, 2]])
     test_result = np.array([3, 4]
 
-    npt.assert_array_equal(daily_mean(test_input), test_result)
+    npt.assert_array_equal(daily_stddev(test_input), test_result)
